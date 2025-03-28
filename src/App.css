@@ -1,0 +1,246 @@
+nav li:hover{
+background-color: rgb(139, 53, 53);
+
+border-radius: 10px;
+}
+nav ul li navlink{
+  color: white;
+}
+nav{
+  color: whitesmoke;
+  background-color: hsl(216, 11%, 9%);
+}
+.logon{
+  color: #bb582a;
+}
+.logo{
+  width: 50px;
+  height: 30px;
+}
+.app img{
+  width: 50px;
+  padding: 10px;
+  
+}
+.white{
+  color: white;
+}
+.ap{
+  background-color: #b9c7df;
+  margin: 0%;
+  
+}
+.hbg{
+  background-color:#1a1d22 ;
+  color: white;
+}
+.insta{
+  height: 50px ;
+  width: 50px;
+}
+.sun {
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+ font-weight: 500;
+ margin-left: 200px;
+}
+.son {
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+ font-weight: 500;
+ margin-right: 200px;
+}
+.home{
+  background-image: url("https://4kwallpapers.com/images/walls/thumbs_2t/19327.jpg");
+  width: 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.home{
+  color: white;
+  text-align: end;
+  justify-content:center;
+  padding-top:180px;
+  padding-right:100px ;
+}
+.home p{
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 800;
+}
+.home button{
+margin-right: 80px;
+}
+.cat h2{
+  text-align: center;
+  color: tomato;
+  font-weight: bold;
+}
+.don li:hover{
+color: tomato;
+}
+.rent img{
+  width: 100%;
+  height: 80vh;
+}
+.about img{
+  width: 100%;
+  height: 70vh;
+}
+.bold{
+  font-weight: bold;
+}
+.mon marquee img{
+  
+  height: 100px;
+}
+.ev img{
+  width: 100%;
+  height:60vh;
+}
+.road{
+  background-image: url("./Components/Assets/rent.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+}
+.shot{
+  background-image: url("./Components/Assets/shot.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  
+  height: 400px;
+}
+.mon marquee img{
+  margin-top: 210px;
+  width: 500px;
+  height: 260px;
+}
+.roa button{
+  margin-right: 200px;
+}
+.demo{
+  margin-bottom: -15px;
+}
+.tk{
+  margin-bottom: -20px;
+  margin: -15px;
+}
+.but{
+  width: 20px;
+  height: 20px;
+  
+}
+.call{
+  background-color: rgb(14, 100, 100);
+  color: white;
+  
+}
+.call input{
+  border-radius: 8px;
+  height: 50px;
+  margin: 5px;
+  padding: 5px;
+}
+.wh{
+  background:white;
+  height: 300px;
+}
+.inline{
+  display: inline-flex;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.inbtn{
+  margin-left: 200px;
+}
+.display{
+  display: flex;
+ 
+  overflow-x:scroll;
+  height: auto;
+  position: relative;
+  
+
+}
+.center input{
+  text-align: center;
+}
+.dark img{
+ width: 300px;
+ height: 300px;
+ margin-top: 170px;
+
+
+
+}
+.heart{
+  animation: fadeInLeft;
+  animation-duration: 3s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+.fb img{
+  width: 70px;
+}
+.fb{
+  margin-top: -30px;
+  padding: 0px;
+}
+.crus img{
+  width: 100%;
+  height: 400px;
+  text-align: center;
+}
+.car img{
+  width: 100%;
+  height: 300px;
+}
+.product {
+  width: 350px;
+  height: 200px;
+  
+}
+.product :hover{
+  width: 360px;
+  transition-duration: 1s;
+  height: 210px;
+ 
+}
+.moon img{
+  width: 500px;
+  height: 250px;
+  
+}
+.moon{
+  margin: 10px;
+}
+.blg img{
+width: 100%;
+height: 200px;
+}
+.mode{
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ 
+}
+.night{
+  background-repeat: no-repeat;
+  background-image: url("./Components/Assets/night.avif");
+  background-size: cover;
+  background-position:contain;
+   width: 1000px;
+  height: fit-content;
+}
+.foot{
+background-color: rgb(10, 1, 29);
+}
