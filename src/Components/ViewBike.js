@@ -8,7 +8,7 @@ const ViewBike = () => {
     const [show,setShow]=useState([]);
     const [scrollPosition,setScrollPosition]=useState(0);
     useEffect(()=>{
-        axios.get(`http://localhost:4000/bike`)
+        axios.get(`https://vahaan-rentals-deploy-1.onrender.com`)
         .then((res)=>setShow(res.data))
         .catch((err)=>console.log(err))
     })

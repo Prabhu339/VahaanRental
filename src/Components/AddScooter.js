@@ -11,7 +11,8 @@ const AddScooter = () => {
     const AddData=(e)=>{
         
             e.preventDefault();
-            axios.post(`http://localhost:4000/bike`,{
+           // axios.post(`http://localhost:4000/bike`,{
+           axios.post(`https://vahaan-rentals-deploy-1.onrender.com `,{
                scooterDescription,scooterBrand,scooterImg,scooterModel,scooterPrice
             })
             .then((res)=>alert("Added"))

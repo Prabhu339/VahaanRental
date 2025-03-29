@@ -10,7 +10,8 @@ const Contact = () => {
 
 const sub=(e)=>{
   e.preventDefault();
-  axios.post(`http://localhost:4000/enquiries`,{
+  //axios.post(`http://localhost:4000/enquiries`,{
+    axios.post(`https://vahaan-rentals-deploy-1.onrender.com`,{
     name,email,phone,message,subject
   })
   .then((res)=>alert("posted"))

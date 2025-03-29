@@ -11,7 +11,8 @@ const AddElectric = () => {
     const Add=(e)=>{
         
             e.preventDefault();
-            axios.post(`http://localhost:4000/bike`,{
+           // axios.post(`http://localhost:4000/bike`,{
+           axios.post(`https://vahaan-rentals-deploy-1.onrender.com `,{
                electricBrand,electricDescription,electricImg,electricModel,electricPrice
             })
             .then((res)=>alert("Added"))

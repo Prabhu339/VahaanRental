@@ -11,7 +11,8 @@ const AddCruiser = () => {
     const AddData=(e)=>{
         
             e.preventDefault();
-            axios.post(`http://localhost:4000/bike`,{
+            //axios.post(`http://localhost:4000/bike`,{
+            axios.post(`https://vahaan-rentals-deploy-1.onrender.com `,{
                cruiserBrand,cruiserDescription,cruiserImg,cruiserModel,cruiserPrice
             })
             .then((res)=>alert("Added"))

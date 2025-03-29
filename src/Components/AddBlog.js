@@ -11,9 +11,14 @@ const AddBlog = () => {
     const AddData=(e)=>{
         
             e.preventDefault();
-            axios.post(`http://localhost:4000/blogs`,{
-                title,content,image,type,description
-            })
+           // axios.post(`http://localhost:4000/blogs`,{
+             //   title,content,image,type,description
+           // })
+           axios.post(`https://vahaan-rentals-deploy-1.onrender.com`,
+            {
+                title,content,image,type,description   
+            }
+           )
             .then((res)=>alert("Added"))
             .catch((err)=>alert(err))
         }

@@ -5,7 +5,8 @@ import { NavLink } from 'react-router-dom'
 const Electric = () => {
   const [cap,setcap]=useState([])
   useEffect(()=>{
-    axios.get(`http://localhost:4000/bike`)
+    //axios.get(`http://localhost:4000/bike`)
+    axios.get(`https://vahaan-rentals-deploy-1.onrender.com`)
     .then((res)=>setcap(res.data))
     .catch((err)=>console.log(err))
   })

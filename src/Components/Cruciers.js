@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom'
 const Cruciers = () => {
   const [can,setcan]=useState([])
   useEffect(()=>{
-    axios.get(`http://localhost:4000/bike`)
+    axios.get(`https://vahaan-rentals-deploy-1.onrender.com`)
     .then((res)=>setcan(res.data))
     .catch((err)=>console.log(err))
   })

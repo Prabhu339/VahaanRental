@@ -6,7 +6,7 @@ const ElectricView = () => {
     const [ton,setTon]=useState([])
     const {_id}=useParams();
     useEffect(()=>{
-        axios.get(`http://localhost:4000/bike/${_id}`)
+        axios.get(`https://vahaan-rentals-deploy-1.onrender.com/${_id}`)
         .then((res)=>setTon(res.data))
         .catch((err)=>console.log(err))
     })
