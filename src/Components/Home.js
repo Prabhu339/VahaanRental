@@ -27,9 +27,11 @@ const Home = () => {
     const navigate=useNavigate();
     const send=()=>{
        
-        axios.post(`http://localhost:4000/quiry`,{
+       /* axios.post(`http://localhost:4000/quiry`,{
             number
-        })
+        })*/
+            axios.post(`https://vahaan-rentals-deploy-1.onrender.com/quiry`,{
+                number})
         .then((res)=>{
             alert("ull get a callback")
         })

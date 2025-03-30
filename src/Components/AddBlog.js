@@ -14,7 +14,7 @@ const AddBlog = () => {
            // axios.post(`http://localhost:4000/blogs`,{
              //   title,content,image,type,description
            // })
-           axios.post(`https://vahaan-rentals-deploy-1.onrender.com`,
+           axios.post(`https://vahaan-rentals-deploy-1.onrender.com/blogs`,
             {
                 title,content,image,type,description   
             }

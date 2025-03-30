@@ -6,7 +6,7 @@ const CruiserView = () => {
     const {_id}=useParams()
     const [man,setman]=useState([])
     useEffect(()=>{
-        axios.get(`https://vahaan-rentals-deploy-1.onrender.com/${_id}`)
+        axios.get(`https://vahaan-rentals-deploy-1.onrender.com/bike/${_id}`)
         .then((res)=>setman(res.data))
         .catch((err)=>console.log(err))
     })

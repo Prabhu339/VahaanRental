@@ -12,7 +12,7 @@ const AddSport = () => {
         
             e.preventDefault();
           //  axios.post(`http://localhost:4000/bike`,{
-          axios.post(`https://vahaan-rentals-deploy-1.onrender.com`,{
+          axios.post(`https://vahaan-rentals-deploy-1.onrender.com/bike`,{
                 sportBrand,sportDescription,sportImg,sportModel,sportPrice
             })
             .then((res)=>alert("Added"))

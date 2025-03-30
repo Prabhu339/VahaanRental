@@ -7,7 +7,7 @@ import axios from 'axios'
 const Blog = () => {
   const [ball,setball]=useState([])
   useEffect(()=>{
-    axios.get(`https://vahaan-rentals-deploy-1.onrender.com`)
+    axios.get(`https://vahaan-rentals-deploy-1.onrender.com/blogs`)
     .then((res)=>setball(res.data))
     .catch((err)=>console.log(err))
   })
