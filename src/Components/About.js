@@ -1,23 +1,23 @@
 import React from 'react'
-
+import bk from '../Components/Assets/bikerent.png'
 const About = () => {
   return (
     <div className=' about'>
       <h2 className='bg-primary-subtle p-2'><marquee>About us</marquee></h2>
-      <img src='https://img.freepik.com/free-psd/motorbike-travel-square-flyer-template_23-2149933092.jpg?t=st=1738752652~exp=1738756252~hmac=27d3edcef6cec3d6b1b81b92418ac9f95901dafce52f58dfe08bbd3ca38232ab&w=740'
-        />
+     
+        <img src={bk}/>
       <div className='p-5 container'>
        
-        <h2>Welcome to Bikers_Adda   - Your trusted partner for self drive rental Bikes</h2>
+        <h2>Welcome to VahaanaRentals   - Your trusted partner for self drive rental Bikes</h2>
 
-       <h1> About Us – BikersAdda</h1>0
+       <h1> About Us – Vahaan Rentals</h1>
        
-<p>Welcome to BikersAdda, your one-stop destination for premium bike rentals! Whether you're a passionate biker, a daily commuter, or a traveler looking to explore new roads, we provide the perfect ride for every journey.
+<p>Welcome to Vahaan Rentals, your one-stop destination for premium bike rentals! Whether you're a passionate biker, a daily commuter, or a traveler looking to explore new roads, we provide the perfect ride for every journey.
 
 At BikersAdda, we don’t just rent bikes – we offer an experience. With a diverse fleet of sports bikes, cruisers, adventure bikes, electric bikes, and scooters, we ensure that every rider finds the ideal vehicle to match their style and purpose. From thrilling high-speed rides to eco-friendly
  city commutes, our bikes are designed to deliver performance, comfort, and reliability.</p>
 
-<h2>Why Choose BikersAdda?</h2>
+<h2>Why Choose VahaanRentals?</h2>
 <b>🚀 Wide Range of Bikes</b><p>
 Our fleet includes top-tier motorcycles and bicycles for all kinds of riders. Whether you need a powerful sports bike for a thrilling ride, a c
 omfortable cruiser for long trips, or an electric scooter for city travel, we have something for everyone.</p>
@@ -53,6 +53,63 @@ For environmentally conscious riders, we offer a range of electric bikes and sco
 <b>🎉 Event & Group Bookings</b>
  <p>– Rent multiple bikes for corporate events, road trips, and group rides.
  </p>
+
+ 🚲 Vahaan Rentals – Our Services
+1. Hourly / Daily / Weekly Rentals
+Flexible rental durations to suit your trip—rent by the hour, day, or week.
+
+Ideal for city commutes, road trips, or weekend getaways.
+
+2. Wide Range of Vehicles
+⚡ Electric Bikes – Eco-friendly rides with battery charging included.
+
+🏍 Sports Bikes – For thrill-seekers and adventure lovers.
+
+🛵 Scooters – Lightweight and perfect for city travel.
+
+🛣 Cruiser Bikes – Relaxed and comfortable for long drives.
+
+3. Doorstep Delivery & Pickup
+Get the bike delivered right to your location.
+
+Easy pickup options once your ride is done.
+
+4. Helmets & Safety Gear Included
+Complimentary helmets and safety gear for your protection.
+
+Extra gear available on request.
+
+5. Easy Online Booking
+Real-time availability check.
+
+Simple and secure payment system.
+
+6. 24/7 Roadside Assistance
+Support team always ready for emergencies or breakdowns.
+
+7. Subscription Plans
+Monthly bike subscriptions for regular commuters.
+
+Discounted rates with no maintenance worries.
+
+8. Group Bookings
+Special packages for road trips or tours with friends.
+
+Multi-bike discounts available.
+
+9. Custom Ride Itineraries
+Get curated riding routes, sightseeing guides, and local tips.
+
+Perfect for tourists and solo explorers.
+
+<b>10. Insurance Coverage</b>
+Basic insurance included with every rental.
+
+Optional premium coverage for added security.
+
+
+
+
 <h2>Our Mission & Vision</h2>
 <p></p>
 <h5>Join the BikersAdda Community!</h5>

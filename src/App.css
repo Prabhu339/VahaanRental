@@ -53,12 +53,13 @@ nav{
  margin-right: 200px;
 }
 .home{
-  background-image: url("https://4kwallpapers.com/images/walls/thumbs_2t/19327.jpg");
+  background-image: url("./Components//Assets/home.png");
   width: 100%;
-  height: 100vh;
+  height: 420px;
+  background-color:black;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
 }
 .home{
   color: white;
@@ -108,7 +109,7 @@ color: tomato;
   background-position: center;
   background-size: cover;
   width: 100%;
-  height: 600px;
+  height: 300px;
 }
 .shot{
   background-image: url("./Components/Assets/shot.webp");
@@ -243,4 +244,8 @@ height: 200px;
 }
 .foot{
 background-color: rgb(10, 1, 29);
+}
+.blogimg img{
+  width: 100%;
+  height: 430px;
 }

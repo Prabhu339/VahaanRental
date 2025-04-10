@@ -11,7 +11,7 @@ const Header = () => {
         <div className="container hbg text-light">
             <NavLink className="navbar-brand text-white" to="/">
             <img src={logo} className='logo'/>
-           <b> Bikers_<span className='logon'>Adda</span></b></NavLink>
+           <b> Vahaan<span className='logon'>Rentals</span></b></NavLink>
             <button
                 className="navbar-toggler d-lg-none bg-light"
                 type="button"

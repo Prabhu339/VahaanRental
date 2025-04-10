@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-
+import blog from '../Components/Assets/blogimg.png'
 import { NavLink, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
@@ -16,8 +16,13 @@ const Blog = () => {
     navigate('/')
   }
   return (
+    <>
+
+   <div className='blogimg'>
+   <img src={blog} className=''/>
+   </div>
     <div className='row container p-5'>
-      app
+    
       
     {
       ball.map((data,index)=>{
@@ -52,6 +57,7 @@ const Blog = () => {
     }
     
     </div>
+    </>
   )
 }
 

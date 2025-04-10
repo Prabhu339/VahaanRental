@@ -1,8 +1,8 @@
 import React from 'react'
 import rent from "./Assets/rent.webp"
 import charge from "./Assets/charge1.jpg"
-import re from "./Assets/bike1.jpg"
-import dark from "./Assets/dark.webp"
+import join1 from "./Assets/join1.avif"
+import join from "./Assets/join.avif"
 import { useNavigate } from 'react-router-dom'
 const Join = () => {
   const navigate=useNavigate()
@@ -11,7 +11,6 @@ const Join = () => {
     <div>
        <marquee className='bg-info-subtle'> <h1>Join With Us</h1></marquee>
     </div>
-    
   
        <div className='road'>
        <h2 className='text-center'>Attach your Vehicle</h2>
@@ -21,11 +20,15 @@ const Join = () => {
         <button className='btn btn-danger m-1 me-5'  onClick={()=>navigate('/addsport')}>Sports</button>
         <button className='btn btn-primary m-1'  onClick={()=>navigate('/addscooter')}>Scooters</button>
         <div className='dark'>
-        <img src={dark}  className='heart'/>
+       { /*<img src={dark}  className='heart'/>*/}
+      
       </div>
       
         </div>
-    
+        <marquee className=''>  
+        <img src={join1}  className='w-25'/>
+         </marquee>
+  
         </div>
  
   

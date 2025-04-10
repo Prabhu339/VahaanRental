@@ -40,7 +40,7 @@ const Home = () => {
   return (
     <>
     <div className='container-fluid row home'>
-        <marquee><h3 className='text-danger'>bikers_Adda</h3></marquee>
+        <marquee><h3 className='text-danger'></h3></marquee>
      <div className='col-md-8'></div>
      <div className='col-md-4'>
      <h3>Trusted And Efficient </h3> 

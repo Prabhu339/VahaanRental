@@ -31,7 +31,7 @@ const Start = () => {
           
         </div>
         <div className='col-md-4 app'>
-            <img src={mail}/>bikers_adda@gmail.com
+            <img src={mail}/>vahaanrentals12@gmail.com
         
           
         </div>

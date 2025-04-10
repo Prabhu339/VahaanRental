@@ -35,13 +35,15 @@ const Footer = () => {
             <div className='col-sm-6 col-md-6 col-lg-4 col-xl-3 p-1'>
                 <h5>contact us</h5>
                 <p>mail us</p>
-                <p>chintuworld@gmail.com</p><b></b>
+                <p>vahaanrentals12@gmail.com</p><b></b>
                 <b onClick={WhatsApp}>call or Whatsapp at</b>
                 <p>917337266170</p>
             </div>
             <div className='col-sm-6 col-md-6 col-lg-4 col-xl-3 p-1'>
                 <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgTpoAQF5b0zIbZZiX9oGIU6-0_b9SpkBwzg&s' alt="ohm" className='w-50'/>
-           <p>Pet grooming services at home.<br></br> Wash, dry and brush your fuzzy <br></br>friend in the comfort of your home.</p>
+            <h5>*Policies</h5>
+         +Privacy Policy<br></br>
+         +Terms & Conditions
             </div>
         </div>
 
